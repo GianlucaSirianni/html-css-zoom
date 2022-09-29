@@ -3,3 +3,72 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+main,
+header,
+footer{
+    border: 1px solid black;
+}
+
+
+.webAppContainer{
+    height: 100vh;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;    
+}
+
+
+/* HEADER */
+
+.flexHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header{
+    margin-top: 0.5%;
+    margin-bottom: 2%;
+}
+
+#speakerView,
+#enlargeButton{
+    padding: 5px;
+    background-color: grey;
+    color: white;
+    margin-left: 1%;
+    border-radius: 5px;
+}
+
+#speakerView p{
+    background-color: grey;
+}
+
+
+/* MAIN */
+
+main{
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card{
+    width: calc(100%/7);
+    position: relative;
+}
+
+.card img{
+    width: 100%;
+}
+
+.cardLabel{
+    position: absolute;
+    top: 86%;
+    color: black;
+    background-color: gray;
+}
