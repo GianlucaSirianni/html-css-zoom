@@ -10,13 +10,11 @@
 main,
 header{
     background-color: black;
-    /* border: 1px solid black; */
 }
 
 
 .webAppContainer{
     height: 100vh;
-    /* background-color: black; */
     display: flex;
     flex-direction: column;    
 }
@@ -99,7 +97,6 @@ main{
 .centerFooter,
 .rightFooter{
     background-color: rgb(59, 58, 58);
-    
     display: flex;
     justify-content: space-between;
 }
@@ -138,7 +135,6 @@ footer div{
 
 .centerFooter{
     width: 70%;
-  
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -190,11 +186,6 @@ p{
 .fa-share-from-square{
     color: greenyellow;
 }
-
-
-/* .centerFooter p{
-    margin-top: 5%;
-} */
 
 .m{
     margin-bottom: 10px;
