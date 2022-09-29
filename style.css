@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-family: 'Open Sans', sans-serif;
 }
 
 main,
@@ -97,7 +99,7 @@ main{
 .centerFooter,
 .rightFooter{
     background-color: rgb(59, 58, 58);
-    /* height: 100px; */
+    
     display: flex;
     justify-content: space-between;
 }
@@ -108,7 +110,6 @@ footer div{
 
 .leftFooter{
     width: 15%;
-    /* border: 1px solid red; */
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -137,7 +138,7 @@ footer div{
 
 .centerFooter{
     width: 70%;
-    /* border: 1px solid red; */
+  
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -147,7 +148,7 @@ footer div{
 
 .rightFooter{
     width: 15%;
-    /* border: 1px solid red; */
+   
 }
 
 #endMeeting{
@@ -191,11 +192,10 @@ p{
 }
 
 
-
-/* .leftFooter span,
-.leftFooter div,
-.centerFooter span,
-.centerFooter div,
-.rightFooter div{
-    background-color: rgb(59, 58, 58);
+/* .centerFooter p{
+    margin-top: 5%;
 } */
+
+.m{
+    margin-bottom: 10px;
+}
